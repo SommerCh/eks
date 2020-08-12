@@ -1,0 +1,33 @@
+
+$widthImg: 40%;
+$fontsize: 25px;
+$align:center;
+$border:solid 7px black;
+$width:80%;
+$margin:auto;
+$height: 800px;
+
+
+.fejl {
+    height: $height;
+    margin: $margin;
+    width: $width;
+    text-align: $align;
+}
+
+code {
+    font-size: $fontsize;
+}
+
+.fejl img {
+    width: $widthImg;
+    margin: $margin;
+}
+/* Media */
+@media screen and (max-width: 1600px) {
+    .top {
+     background-color: rgba(0, 0, 255, 0);
+    }
+  
+  }
+  

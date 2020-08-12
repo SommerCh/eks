@@ -1,0 +1,46 @@
+.footer {
+    height: 400px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+
+.footer p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.copy {
+    background-color: black;
+    margin: 4% 0 0 0;
+    height: 200px;
+    padding: 2% 0 0 0;
+    color: grey;
+}
+
+.pil {
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+    width: 3%;
+    margin: -20px 0 0 0;
+    padding: 10px;
+}
+.pil:hover{
+    background-color: #b8b8b8;
+}
+
+/* Media */
+@media screen and (max-width: 992px) {
+    .pil {
+        width: 5%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .pil {
+        width: 8%;
+    }
+  }

@@ -1,0 +1,11 @@
+
+.fase {
+    color: black;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #søg {width: 50%;}
+}
